@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>NY Times Search App</title>
@@ -9,43 +10,57 @@
 	<!-- Link to jQuery CDN -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 </head>
+
 <body>
 	<div class="container">
 		<div class="jumbotron">
-			<h1 class="text-center nytimesh1"><span class="fa fa-newspaper-o"></span> New York Times Search App</h1>
+			<h1 class="text-center nytimesh1">
+				<span class="fa fa-newspaper-o"></span> New York Times Search App</h1>
 		</div>
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="panel panel-default">
-					<div class="panel-heading"><span class="fa fa-newspaper-o"></span> Search Parameters</div>
+					<div class="panel-heading">
+						<span class="fa fa-newspaper-o"></span> Search Parameters</div>
 					<div class="panel-body">
-						<p><b>Search Term:</b></p>
+						<p>
+							<b>Search Term:</b>
+						</p>
 						<div class="form-group">
 							<input type="text" id="search-term" class="form-control" placeholder="ex: Donald Trump" aria-describedby="basic-addon1">
 						</div>
-						<p><b>Number of Records to Retrieve</b></p>
+						<p>
+							<b>Number of Records to Retrieve</b>
+						</p>
 						<div class="form-group">
-							<input type="text"  id="number-records" class="form-control" placeholder="ex: 10" aria-describedby="basic-addon1">
+							<input type="text" id="number-records" class="form-control" placeholder="ex: 10" aria-describedby="basic-addon1">
 						</div>
-						<p><b>Start Year (Optional)</b></p>
+						<p>
+							<b>Start Year (Optional)</b>
+						</p>
 						<div class="form-group">
 							<input type="text" id="start-year" class="form-control" placeholder="ex: 1985" aria-describedby="basic-addon1">
 						</div>
-						<p><b>End Year (Optional)</b></p>
+						<p>
+							<b>End Year (Optional)</b>
+						</p>
 						<div class="form-group">
-							<input type="text"  id="end-year" class="form-control" placeholder="ex: 2016" aria-describedby="basic-addon1">
+							<input type="text" id="end-year" class="form-control" placeholder="ex: 2016" aria-describedby="basic-addon1">
 						</div>
-						
+
 						<div class="btn-group" role="group" aria-label="...">
-							<button id="form-submission" type="button" class="btn btn-default"><span class="fa fa-search"> </span> Search</button>
+							<button id="form-submission" type="button" class="btn btn-default">
+								<span class="fa fa-search"> </span> Search</button>
 						</div>
-						<button type="button" class="btn btn-default"><span class="fa fa-trash-o"> </span> Clear</button>
+						<button type="button" class="btn btn-default">
+							<span class="fa fa-trash-o"> </span> Clear</button>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="panel panel-default">
-							<div class="panel-heading"><span class="fa fa-newspaper-o"></span> Top Articles</div>
+							<div class="panel-heading">
+								<span class="fa fa-newspaper-o"></span> Top Articles</div>
 							<div class="panel-body" id="top-articles">
 							</div>
 						</div>
@@ -53,32 +68,36 @@
 				</div>
 			</div>
 			<!-- end of container -->
-		</div> 
+		</div>
 		<style>
-			
 			.resultBox {
 				padding: 20px 10px;
 				width: 100%;
 				margin: 10px;
 				background: #ddd;
 			}
+
 			.resultTitle {
 				font-size: 30px;
 			}
+
 			.resultNumber {
 				padding: 10px;
 				color: white;
 				background: black;
 				border-radius: 5px;
 			}
+
 			.jumbotron {
 				background-color: #000080;
-				
+
 			}
-			.nytimesh1{
+
+			.nytimesh1 {
 				color: white !important;
 			}
 		</style>
 		<script type="text/javascript" src="main.js"></script>
-	</body>
-	</html>
+</body>
+
+</html>
